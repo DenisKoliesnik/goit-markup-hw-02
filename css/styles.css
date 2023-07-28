@@ -1,0 +1,30 @@
+:root {
+  --iris: #4d5ae5;
+  --ocean: #ecf1f4;
+  --navy-blye: #2e2f42;
+  --green: #ecf1f4;
+  --slate: #434455;
+  --light-slate: #ecf1f4;
+  --cornflower: #e7e9fc;
+  --cloud: #ecf1f4;
+  --navy-bly-modal: #2e2f42;
+  --GREY: #2e2f42;
+  --WHITE: #2e2f42;
+  --Dairy: #fcfcfc;
+}
+
+body {
+  color: var(--navy-blye);
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 140%;
+}
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px;
+}
