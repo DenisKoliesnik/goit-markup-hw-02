@@ -1,6 +1,6 @@
 :root {
   --iris: #4d5ae5;
-  --ocean: #ecf1f4;
+  --ocean:#404BBF;
   --navy-blye: #2e2f42;
   --green: #ecf1f4;
   --slate: #434455;
@@ -9,22 +9,90 @@
   --cloud: #ecf1f4;
   --navy-bly-modal: #2e2f42;
   --GREY: #2e2f42;
-  --WHITE: #2e2f42;
+  --WHITE:#FFFFFF;
   --Dairy: #fcfcfc;
+  --black: #2e2f42;
 }
 
 body {
   color: var(--navy-blye);
   font-family: "Roboto", sans-serif;
-  font-size: 14px;
   font-style: normal;
-  font-weight: 500;
-  line-height: 140%;
+  background-color: var(--WHITE);
 }
-.title {
-  font-family: "Roboto", sans-serif;
-  font-size: 56px;
-  font-style: normal;
-  font-weight: 700;
-  line-height: 60px;
+
+/* header */
+.header {font-family: Raleway;
+    font-size: 18px;
+    font-weight: 800;
+    line-height:  116.667%;
+    letter-spacing: 0.54px;
+    color: var(--navy-blye);
+    
 }
+.name-link {
+    color: var(--iris);
+    font-family: 'Raleway', sans-serif;
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.17px;
+	line-height: 1.17;
+	letter-spacing: 0.54px;
+	text-transform: uppercase;
+    text-decoration: none;
+    list-style: none
+}
+
+.name {
+    color: var(--navy-blye)
+    
+    
+}
+.link  { font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0.32px;
+    color: var(--navy-blye);
+    text-decoration: none;
+    list-style: none;
+
+}
+  .link-text {
+    color: var(--navy-blye); 
+    text-decoration: none;
+    list-style: none;
+    
+}
+ .link-text:hover{
+    color: var(--ocean);}
+
+ .link-text:active{
+    color: var(--ocean);
+}
+.adress{font-style: normal;
+    
+}
+.mail{font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  150% ;
+    letter-spacing: 0.32px;
+    list-style: none;
+    text-decoration: none;
+    color: var(--navy-blye);
+
+}
+.mail:hover{color: var(--ocean);}
+.tel{color: var(--navy-blye);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:  /* 150% */
+    letter-spacing: 0.32px;
+}
+/* main */
+
