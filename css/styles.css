@@ -15,66 +15,47 @@
 }
 
 .body {
-  color:  #434455 ;
+  color: #434455;
   font-family: "Roboto", sans-serif;
   font-style: normal;
   background-color: var(--WHITE);
 }
 
 /* header */
-.header {
-  font-family: Raleway;
-  font-size: 18px;
-  font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
-  color: var(--navy-blye);
-}
-.name-link {
-  color: var(--iris);
-  font-family: "Raleway", sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.17px;
-  line-height: 1.17;
-  letter-spacing: 0.54px;
-  text-transform: uppercase;
+
+
+.link {
   text-decoration: none;
-  
+}
+.list {
+  list-style: none;
 }
 
-.name {
+
+.nav-item  {
   color: var(--navy-blye);
-}
-.logo{
-    list-style: none;
-    
-    }
-.link {
+
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
-  line-height: 24px;
+  line-height: 150%;
   letter-spacing: 0.32px;
-  color: var(--navy-blye);}
-  
+}
 
-.link-text{color: var(--navy-blye);
-    text-decoration: none;
-  }
-.link-text:hover {
+.nav-item:hover,
+.nav-item:focus {
   color: var(--ocean);
 }
 
-.link-text:active {
+.nav-item:active {
   color: var(--ocean);
 }
 .adress {
-    
   font-style: normal;
 }
-.mail-tel{list-style: none;}
+
+
 .mail {
   font-family: Roboto;
   font-size: 16px;
@@ -82,10 +63,9 @@
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
- 
+
   text-decoration: none;
   color: var(--navy-blye);
- 
 }
 .mail:hover {
   color: var(--ocean);
@@ -98,8 +78,7 @@
   font-weight: 400;
   line-height: 150%;
   letter-spacing: 0.32px;
-  list-style: none;
-  text-decoration: none;
+ 
 }
 /* main */
 
@@ -132,10 +111,6 @@
 }
 /* Advantages */
 
-.desc {
-  list-style: none;
-}
-
 .heading {
   color: var(--navyblue, #2e2f42);
 
@@ -149,7 +124,6 @@
 
 .heading-title {
   color: var(--slate, #434455);
-  /* Body */
   font-family: Roboto;
   font-size: 16px;
   font-style: normal;
@@ -157,12 +131,11 @@
   line-height: 150%;
   letter-spacing: 0.32px;
 }
+/* sektion-2 */
 .img {
   background-color: var(--WHITE);
 }
-.caption-img {
-  list-style: none;
-}
+
 .caption {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -179,6 +152,7 @@
 .our-team {
   background: var(--cloud, #f4f4fd);
 }
+/* our-team */
 .name-team {
   color: var(--navyblue, #2e2f42);
   text-align: center;
@@ -191,9 +165,7 @@
   letter-spacing: 0.72px;
   text-transform: capitalize;
 }
-.photo {
-  list-style: none;
-}
+
 .img-team {
   background: var(--white, #fff);
 }
@@ -218,10 +190,11 @@
   line-height: 150%;
   letter-spacing: 0.32px;
 }
-.footer {
+/* footer */
+.footer-name {
   background: var(--navyblue, #2e2f42);
 }
-.footer-link {
+.footer {
   color: var(--iris, #4d5ae5);
   font-family: Raleway;
   font-size: 18px;
