@@ -14,7 +14,7 @@
   --black: #2e2f42;
 }
 
-body {
+.body {
   color: var(--navy-blye);
   font-family: "Roboto", sans-serif;
   font-style: normal;
