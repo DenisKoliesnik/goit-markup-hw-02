@@ -31,20 +31,20 @@
   list-style: none;
 }
 .web{color: var(--iris, #4D5AE5);
-  font-family: Raleway;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height: 116.667%;
-  letter-spacing: 0.54px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
   text-transform: uppercase;}
-.name{color: var(--navyblue, #2E2F42);
-  font-family: Raleway;
+.name{color:  #2e2f42;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
-  line-height:  116.667%;
-  letter-spacing: 0.54px;
+  line-height:  1.17;
+  letter-spacing: 0.03emx;
   text-transform: uppercase;}
 
 .nav-item  {
@@ -160,14 +160,14 @@
   font-style: normal;
   font-weight: 700;
   line-height: 111.111%;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
 }
-
-.our-team {
-  background: var(--cloud, #f4f4fd);
-}
 /* our-team */
+.our-team {
+  background: #F4F4FD;
+}
+
 .name-team {
   color: var(--navyblue, #2e2f42);
   text-align: center;
