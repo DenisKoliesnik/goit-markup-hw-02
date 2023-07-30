@@ -30,7 +30,7 @@
 .list {
   list-style: none;
 }
-.web{color: var(--iris, #4D5AE5);
+.web{color:#404bbf;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
@@ -38,7 +38,7 @@
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;}
-.name{color:  #2e2f42;
+.name{color:  #434455;
   font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
