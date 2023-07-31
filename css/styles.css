@@ -48,7 +48,7 @@
   text-transform: uppercase;}
 
 .nav-item  {
-  color: var(--slate);
+  color: var(--navy-blye);
 
   font-family: Roboto;
   font-size: 16px;
@@ -69,32 +69,31 @@
 .adress {
   font-style: normal;
 }
+.adres-list{
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--slate);
 
+}
 
 .mail {
   font-family: Roboto;
   font-size: 16px;
   
   font-weight: 400;
-  line-height: 150%;
+  line-height: 1.5;
   letter-spacing: 0.32px;
 
   text-decoration: none;
-  color: var(--navy-blye);
+  color: var(--slate);
 }
-.mail:hover {
+.mail:hover,
+.mail:focus
+{
   color: var(--ocean);
 }
-.tel {
-  color: var(--navy-blye);
-  font-family: Roboto;
-  font-size: 16px;
-  
-  font-weight: 400;
-  line-height: 150%;
-  letter-spacing: 0.32px;
- 
-}
+
 /* main */
 
 .title {
@@ -110,7 +109,7 @@
   letter-spacing: 1.12px;
 }
 
-.button {
+.title-button {
   color: var(--white, #fff);
   background-color: var(--iris);
   font-family: Roboto, sans-serif;
@@ -121,7 +120,8 @@
   letter-spacing: 0.64px;
   cursor: pointer;
 }
-.button:hover {
+.title-button:hover,
+.title-button:focus {
   background-color: var(--ocean);
 }
 /* Advantages */
