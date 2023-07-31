@@ -184,16 +184,7 @@
 .img-team {
   background: var(--white, #fff);
 }
-.name-team-h3 {
-  color: var(--navyblue, #2e2f42);
-  text-align: center;
-  font-family:  Roboto , sans-serif;
-  font-size: 20px;
-  
-  font-weight:  500;
-  line-height: 120%;
-  letter-spacing: 0.4px;
-}
+
 .name-text {
   color: var(--slate, #434455);
   text-align: center;
