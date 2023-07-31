@@ -184,7 +184,7 @@
 .img-team {
   background: var(--white, #fff);
 }
-.name-team {
+.name-team-h3 {
   color: var(--navyblue, #2e2f42);
   text-align: center;
   font-family: Roboto , sans-serif;
