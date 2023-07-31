@@ -103,7 +103,7 @@
 .title-text {
   color: var(--white, #fff);
   text-align: center;
-  font-family: Roboto, sans-seri;
+  font-family: Roboto, sans-serif;
   font-size: 56px;
   font-weight: 700;
   line-height: 107.143%;
@@ -113,7 +113,7 @@
 .button {
   color: var(--white, #fff);
   background-color: var(--iris);
-  font-family: Roboto, sans-seri;
+  font-family: Roboto, sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -129,7 +129,7 @@
 .heading {
   color: var(--navyblue, #2e2f42);
 
-  font-family: Roboto;
+  font-family: Roboto , sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -139,7 +139,7 @@
 
 .heading-title {
   color: var(--slate, #434455);
-  font-family: Roboto;
+  font-family: Roboto , sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -155,7 +155,7 @@
   color: var(--navyblue, #2e2f42);
   text-align: center;
 
-  font-family: Roboto;
+  font-family: Roboto , sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -172,7 +172,7 @@
   color: var(--navyblue, #2e2f42);
   text-align: center;
 
-  font-family: Roboto;
+  font-family: Roboto , sans-serif;
   font-size: 36px;
   font-style: normal;
   font-weight: 700;
@@ -187,7 +187,7 @@
 .name-team {
   color: var(--navyblue, #2e2f42);
   text-align: center;
-  font-family: Roboto;
+  font-family: Roboto , sans-serif;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
@@ -198,7 +198,7 @@
   color: var(--slate, #434455);
   text-align: center;
 
-  font-family: Roboto;
+  font-family: Roboto , sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -211,7 +211,7 @@
 }
 .footer {
   color: var(--iris, #4d5ae5);
-  font-family: Raleway, sans-ser;
+  font-family: Raleway, sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -221,7 +221,7 @@
 }
 .footer-span {
   color: #f4f4fd;
-  font-family: Raleway;
+  font-family: Raleway , sans-serif;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -232,7 +232,7 @@
 .footer-text {
   color:  #F4F4FD;
 
-  font-family: Roboto;
+  font-family: Roboto , sans-serif;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
